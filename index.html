@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cleanroom — data cleaning your agent can do, but only you can approve</title>
+<meta name="description" content="Drop a messy CSV. Your agent profiles, cleans and analyses it entirely inside the browser tab — proposing every change for you to approve. Nothing is ever uploaded." />
+<link rel="stylesheet" href="./styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🧼</text></svg>" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">◫</span>
+    <div>
+      <h1>Cleanroom</h1>
+      <p class="tagline">Your agent proposes. You approve. Your data never leaves the tab.</p>
+    </div>
+  </div>
+  <div class="pills">
+    <span id="host-status" class="pill">…</span>
+    <span id="egress" class="pill">…</span>
+  </div>
+</header>
+
+<main>
+  <section class="panel data-panel">
+    <div class="panel-head">
+      <h2>Data</h2>
+      <div id="dataset-meta" class="meta"></div>
+      <div class="head-actions">
+        <label class="btn btn-quiet" for="file-input">Open CSV</label>
+        <input type="file" id="file-input" accept=".csv,.tsv,.txt,text/csv" hidden />
+        <button class="btn btn-quiet" id="undo" disabled>Undo last</button>
+        <button class="btn btn-quiet" id="reset">Reset</button>
+      </div>
+    </div>
+    <div id="grid-wrap" class="grid-wrap"></div>
+    <div id="outputs" class="outputs" style="display:none"></div>
+  </section>
+
+  <aside class="panel rail">
+    <div class="rail-section">
+      <h2>Waiting on you <span id="pending-count" class="badge" style="display:none"></span></h2>
+      <div id="questions"></div>
+      <div id="proposals"></div>
+    </div>
+    <div class="rail-section">
+      <h2>Agent activity</h2>
+      <div id="activity" class="activity"></div>
+    </div>
+  </aside>
+</main>
+
+<section class="panel console">
+  <div class="panel-head">
+    <h2>Agent Console</h2>
+    <p class="meta">
+      <strong id="tool-count">0</strong> tools are registered on this page. This console calls the
+      <em>same</em> tool objects a WebMCP host calls — it is an inspector, not a simulation.
+      Use it to see exactly what ChatGPT sees.
+    </p>
+  </div>
+  <div class="console-body">
+    <div class="console-left">
+      <label for="tool-select">Tool</label>
+      <select id="tool-select"></select>
+      <p id="tool-desc" class="tool-desc"></p>
+      <label for="tool-args">Arguments (JSON)</label>
+      <textarea id="tool-args" spellcheck="false" rows="8"></textarea>
+      <button class="btn" id="tool-run">Run tool</button>
+    </div>
+    <div class="console-right">
+      <label>Result</label>
+      <pre id="tool-output" class="tool-output">Pick a tool and run it.</pre>
+    </div>
+  </div>
+  <details class="tool-catalogue">
+    <summary>Registered tool catalogue</summary>
+    <ul id="tool-list" class="tool-list"></ul>
+    <p class="muted small">
+      Read tools carry <code>readOnlyHint: true</code> and run immediately. Every tool that would
+      change your data is human-gated: it stages a diff and stops. <code>undo</code> is deliberately
+      not exposed to the agent — walking a change back belongs to you.
+    </p>
+  </details>
+</section>
+
+<footer class="footer">
+  <p>
+    Cleanroom is a <a href="https://github.com/webmachinelearning/webmcp">WebMCP</a> demonstration built for the
+    OpenAI WebMCP Challenge. It has no backend. Parsing, profiling, transforms, charts and export all run in this tab.
+  </p>
+</footer>
+
+<div class="drop-overlay"><div>Drop a CSV to load it — it stays on your machine</div></div>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

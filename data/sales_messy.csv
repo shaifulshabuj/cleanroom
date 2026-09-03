@@ -1,0 +1,77 @@
+order_id,order_date,region,channel,sales_rep,sku,quantity,amount_jpy,cost_jpy,status
+ORD-1000,2026-01-01,Tokyo,Online,A. Sato,APL-1001,N/A,"¥39,545",,shipped
+ORD-1001,04/08/2026,tokyo ,online,a. sato,APL-1002,10,77220,42814,Shipped
+ORD-1002,15 Jul 2026,TOKYO,Retail,M. Tanaka,APL-1003,10,70190,42329, shipped 
+ORD-1003,22.10.2026, Osaka,retail ,M. Tanaka ,KNT-2001,2,15568,7191,pending
+ORD-1004,2026-01-01,Osaka,Wholesale,K. Yamada,KNT-2002,4,31024,13396,Pending
+ORD-1005,04/08/2026,osaka,WHOLESALE,k. yamada,DNM-3001,7,"¥13,867",6024,cancelled
+ORD-1006,15 Jul 2026,Yokohama,Online,J. Okafor,DNM-3002,13,95472,55557,shipped
+ORD-1007,22.10.2026,yokohama ,online,A. Sato,APL-1001,14,(30548),16607,Shipped
+ORD-1008,2026-01-01,Nagoya,Retail,a. sato,APL-1002,9,27207,16282, shipped 
+ORD-1009,04/08/2026,Fukuoka,retail ,M. Tanaka,APL-1003,2,13232,,pending
+ORD-1010,15 Jul 2026,fukuoka,Wholesale,M. Tanaka ,KNT-2001,3,"¥5,889",3317,Pending
+ORD-1011,22.10.2026,Tokyo,WHOLESALE,K. Yamada,KNT-2002,N/A,97706,57014,cancelled
+ORD-1012,2026-01-01,tokyo ,Online,k. yamada,DNM-3001,16,100080,42758,shipped
+ORD-1013,04/08/2026,TOKYO,online,J. Okafor,DNM-3002,7,18907,10432,Shipped
+ORD-1014,15 Jul 2026, Osaka,Retail,A. Sato,APL-1001,7,(25172),14550, shipped 
+ORD-1015,22.10.2026,Osaka,retail ,a. sato,APL-1002,6,"¥42,276",22475,pending
+ORD-1016,2026-01-01,osaka,Wholesale,M. Tanaka,APL-1003,4,18288,9781,Pending
+ORD-1017,04/08/2026,Yokohama,WHOLESALE,M. Tanaka ,KNT-2001,8,28720,16889,cancelled
+ORD-1018,15 Jul 2026,yokohama ,Online,K. Yamada,KNT-2002,11,43109,,shipped
+ORD-1019,22.10.2026,Nagoya,online,k. yamada,DNM-3001,13,9850000,4923946,Shipped
+ORD-1020,2026-01-01,Fukuoka,Retail,J. Okafor,DNM-3002,11,"¥35,464",15507, shipped 
+ORD-1021,04/08/2026,fukuoka,retail ,A. Sato,APL-1001,11,(54450),27821,pending
+ORD-1022,15 Jul 2026,Tokyo,Wholesale,a. sato,APL-1002,N/A,27066,11799,Pending
+ORD-1023,22.10.2026,tokyo ,WHOLESALE,M. Tanaka,APL-1003,14,42196,18741,cancelled
+ORD-1024,2026-01-01,TOKYO,Online,M. Tanaka ,KNT-2001,16,86768,47160,shipped
+ORD-1025,04/08/2026, Osaka,online,K. Yamada,KNT-2002,17,"¥55,964",28882,Shipped
+ORD-1026,15 Jul 2026,Osaka,Retail,k. yamada,DNM-3001,8,44712,24862, shipped 
+ORD-1027,22.10.2026,osaka,retail ,J. Okafor,DNM-3002,5,14760,,pending
+ORD-1028,2026-01-01,Yokohama,Wholesale,A. Sato,APL-1001,12,(21624),10307,Pending
+ORD-1029,04/08/2026,yokohama ,WHOLESALE,a. sato,APL-1002,14,89558,45354,cancelled
+ORD-1030,15 Jul 2026,Nagoya,Online,M. Tanaka,APL-1003,7,"¥33,985",16000,shipped
+ORD-1031,22.10.2026,Fukuoka,online,M. Tanaka ,KNT-2001,6,41160,19615,Shipped
+ORD-1032,2026-01-01,fukuoka,Retail,K. Yamada,KNT-2002,11,23683,14095, shipped 
+ORD-1033,04/08/2026,Tokyo,retail ,k. yamada,DNM-3001,N/A,58370,26549,pending
+ORD-1034,15 Jul 2026,tokyo ,Wholesale,J. Okafor,DNM-3002,15,52920,24570,Pending
+ORD-1035,22.10.2026,TOKYO,WHOLESALE,A. Sato,APL-1001,9,"¥58,032",28599,cancelled
+ORD-1036,2026-01-01, Osaka,Online,a. sato,APL-1002,1,4326,,shipped
+ORD-1037,04/08/2026,Osaka,online,M. Tanaka,APL-1003,2,15486,7364,Shipped
+ORD-1038,15 Jul 2026,osaka,Retail,M. Tanaka ,KNT-2001,11,58927,35341, shipped 
+ORD-1039,22.10.2026,Yokohama,retail ,K. Yamada,KNT-2002,13,99398,46851,pending
+ORD-1040,2026-01-01,yokohama ,Wholesale,k. yamada,DNM-3001,5,"¥23,860",11903,Pending
+ORD-1041,04/08/2026,Nagoya,WHOLESALE,J. Okafor,DNM-3002,15,72585,44190,cancelled
+ORD-1042,15 Jul 2026,Fukuoka,Online,A. Sato,APL-1001,15,(72360),43635,shipped
+ORD-1043,22.10.2026,fukuoka,online,a. sato,APL-1002,8,42440,25368,Shipped
+ORD-1044,2026-01-01,Tokyo,Retail,M. Tanaka,APL-1003,N/A,7420000,4220623, shipped 
+ORD-1045,04/08/2026,tokyo ,retail ,M. Tanaka ,KNT-2001,17,"¥119,765",,pending
+ORD-1046,15 Jul 2026,TOKYO,Wholesale,K. Yamada,KNT-2002,4,13100,6395,Pending
+ORD-1047,22.10.2026, Osaka,WHOLESALE,k. yamada,DNM-3001,1,2617,1445,cancelled
+ORD-1048,2026-01-01,Osaka,Online,J. Okafor,DNM-3002,15,48195,25567,shipped
+ORD-1049,04/08/2026,osaka,online,A. Sato,APL-1001,6,(17478),9442,Shipped
+ORD-1050,15 Jul 2026,Yokohama,Retail,a. sato,APL-1002,12,"¥87,636",52789, shipped 
+ORD-1051,22.10.2026,yokohama ,retail ,M. Tanaka,APL-1003,5,29435,13064,pending
+ORD-1052,2026-01-01,Nagoya,Wholesale,M. Tanaka ,KNT-2001,15,57090,27539,Pending
+ORD-1053,04/08/2026,Fukuoka,WHOLESALE,K. Yamada,KNT-2002,13,32032,18865,cancelled
+ORD-1054,15 Jul 2026,fukuoka,Online,k. yamada,DNM-3001,7,24178,,shipped
+ORD-1055,22.10.2026,Tokyo,online,J. Okafor,DNM-3002,N/A,"¥55,668",29570,Shipped
+ORD-1056,2026-01-01,tokyo ,Retail,A. Sato,APL-1001,17,(76449),47132, shipped 
+ORD-1057,04/08/2026,TOKYO,retail ,a. sato,APL-1002,2,10614,5838,pending
+ORD-1058,15 Jul 2026, Osaka,Wholesale,M. Tanaka,APL-1003,3,16341,9369,Pending
+ORD-1059,22.10.2026,Osaka,WHOLESALE,M. Tanaka ,KNT-2001,11,23188,13892,cancelled
+ORD-1060,2026-01-01,osaka,Online,K. Yamada,KNT-2002,9,"¥39,609",23176,shipped
+ORD-1061,04/08/2026,Yokohama,online,k. yamada,DNM-3001,14,38416,23044,Shipped
+ORD-1062,15 Jul 2026,yokohama ,Retail,J. Okafor,DNM-3002,6,14298,6631, shipped 
+ORD-1063,22.10.2026,Nagoya,retail ,A. Sato,APL-1001,2,(12750),,pending
+ORD-1064,2026-01-01,Fukuoka,Wholesale,a. sato,APL-1002,14,73766,31170,Pending
+ORD-1065,04/08/2026,fukuoka,WHOLESALE,M. Tanaka,APL-1003,8,"¥53,520",27231,cancelled
+ORD-1066,15 Jul 2026,Tokyo,Online,M. Tanaka ,KNT-2001,N/A,12484,5643,shipped
+ORD-1067,22.10.2026,tokyo ,online,K. Yamada,KNT-2002,11,58190,28064,Shipped
+ORD-1068,2026-01-01,TOKYO,Retail,k. yamada,DNM-3001,12,30492,18017, shipped 
+ORD-1069,04/08/2026, Osaka,retail ,J. Okafor,DNM-3002,2,15480,6935,pending
+ORD-1070,15 Jul 2026,Osaka,Wholesale,A. Sato,APL-1001,5,"¥11,690",6524,Pending
+ORD-1071,22.10.2026,osaka,WHOLESALE,a. sato,APL-1002,8,46968,20024,cancelled
+ORD-1003,22.10.2026, Osaka,retail ,M. Tanaka ,KNT-2001,2,15568,7191,pending
+ORD-1012,2026-01-01,tokyo ,Online,k. yamada,DNM-3001,16,100080,42758,shipped
+ORD-1012,2026-01-01,tokyo ,Online,k. yamada,DNM-3001,16,100080,42758,shipped
+ORD-1030,15 Jul 2026,Nagoya,Online,M. Tanaka,APL-1003,7,"¥33,985",16000,shipped

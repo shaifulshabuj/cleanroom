@@ -1,0 +1,16 @@
+{
+  "name": "cleanroom",
+  "version": "1.0.0",
+  "description": "Data cleaning your agent can do, but only you can approve — a WebMCP app that never uploads your data.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "check": "node test/offline-check.mjs",
+    "test": "node test/smoke.mjs",
+    "deploy": "wrangler pages deploy . --project-name cleanroom"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
