@@ -4,6 +4,10 @@
 
 Built for the [OpenAI WebMCP Challenge](https://webmcp.devpost.com/).
 
+**▶ [Try it live](https://cleanroom-80s.pages.dev)** · **[Watch the 2-minute demo](https://youtu.be/bsP4PRU1EFk)**
+
+No install, no sign-up, no backend. Your CSV is parsed in the tab and never uploaded.
+
 ![Cleanroom with two agent proposals awaiting human approval](docs/screenshot-light.png)
 
 ---
@@ -113,7 +117,8 @@ browser itself or a malicious extension, and it is not a substitute for a securi
 
 ## Try it
 
-**Live:** *(deployed URL — see DEPLOY.md)*
+**Live:** <https://cleanroom-80s.pages.dev>  
+**Demo video:** <https://youtu.be/bsP4PRU1EFk>
 
 - In **ChatGPT's browser** or **Chrome with WebMCP enabled** (`chrome://flags/#enable-webmcp-testing`),
   open the page and the header shows *"Agent connected · 14 tools"*. Then just ask.
